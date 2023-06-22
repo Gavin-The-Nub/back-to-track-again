@@ -1,0 +1,1317 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 60px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgb(5, 31, 53);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.profile {
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.name {
+  font-size: 8px;
+  display: inline-block; /*inline-block-*/
+  color: aliceblue;
+  margin-top: 15px;
+}
+.bright-idea {
+  display: none;
+}
+
+.right {
+  display: flex;
+  flex-wrap: nowrap;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+li a {
+  color: aliceblue;
+  font-size: 8px;
+}
+
+.products {
+  height: auto;
+  width: auto;
+  float: left;
+}
+.prod {
+  width: 50%;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.contact {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 280px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.fb {
+  width: 50px;
+  padding-top: 40px;
+  cursor: pointer;
+}
+.text {
+  cursor: pointer;
+}
+
+.text:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 3px rgb(167, 164, 164);
+  color: hsl(240, 77%, 54%);
+}
+@media only screen and (min-width: 360px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+    width: auto;
+    float: left;
+  }
+  .prod {
+    width: 50%;
+    margin-left: 88px;
+    margin-top: 50px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 280px;
+    float: left;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .text:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(167, 164, 164);
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+    width: auto;
+    float: left;
+  }
+  .prod {
+    width: 50%;
+    margin-left: 93px;
+    margin-top: 25px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 295px;
+    float: left;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(167, 164, 164);
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+    width: auto;
+    float: left;
+  }
+  .prod {
+    width: 50%;
+    margin-left: 105px;
+    margin-top: 50px;
+  }
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 310px;
+    float: left;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(167, 164, 164);
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 412px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+    width: auto;
+    float: left;
+  }
+  .prod {
+    width: 50%;
+    margin-left: 105px;
+    margin-top: 50px;
+  }
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 335px;
+    float: left;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(167, 164, 164);
+    color: hsl(240, 77%, 54%);
+  }
+}
+@media only screen and (min-width: 512px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    width: auto;
+    float: left;
+    width: 100%;
+  }
+  .prod {
+    width: 50%;
+    margin-left: 127px;
+    margin-top: 10px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 433px;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(167, 164, 164);
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    width: auto;
+    float: left;
+    width: 100%;
+  }
+  .prod {
+    width: 50%;
+    margin-left: 127px;
+    margin-top: 10px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 462px;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(167, 164, 164);
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 653px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    padding-top: 0px;
+    margin-left: 80px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 384px;
+  }
+  .fb {
+    width: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .text:hover {
+    cursor: pointer;
+
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 553px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+@media only screen and (min-width: 717px) {
+  .bright-idea {
+    display: none;
+    font-size: 13px;
+  }
+  .name {
+    font-size: 13px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 13px;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 75px;
+    margin-left: 90px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 610px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 526px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 657px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 844px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 579px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 851px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+
+    margin-top: 16px;
+    margin-left: 100px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 585px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 896px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+
+    margin-top: 18px;
+    margin-left: 100px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 622px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+@media only screen and (min-width: 912px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 120px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 800px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 914px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 120px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 618px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .bright-idea {
+    display: inline;
+    font-size: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 140px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 915px;
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 1114px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 140px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 1010px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .bright-idea {
+    display: inline;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 140px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 1073px;
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bright-idea {
+    display: inline;
+  }
+  .name {
+    font-size: 22px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 22px;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 160px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 1170px;
+    padding-top: 45px;
+    padding-left: 45px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .bright-idea {
+    display: inline;
+  }
+  .name {
+    font-size: 22px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 22px;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 160px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 1250px;
+    padding-top: 45px;
+    padding-left: 45px;
+  }
+  .fb {
+    width: 70px;
+    padding-top: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 13px;
+    width: 50px;
+    text-align: center;
+    margin-left: 29px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .bright-idea {
+    display: inline;
+  }
+  .name {
+    font-size: 22px;
+  }
+  li a {
+    color: aliceblue;
+    font-size: 22px;
+  }
+  .products {
+    height: auto;
+
+    width: auto;
+    float: left;
+    width: 50%;
+  }
+  .prod {
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 160px;
+  }
+
+  .contact {
+    height: auto;
+    width: auto;
+
+    float: left;
+  }
+
+  .info {
+    width: 1400px;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  .fb {
+    width: 100px;
+    padding-top: 80px;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  .text {
+    cursor: pointer;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 16px;
+  }
+  .text:hover {
+    cursor: pointer;
+    font-size: 17px;
+    width: 70px;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 10px;
+    color: hsl(240, 77%, 54%);
+  }
+}
